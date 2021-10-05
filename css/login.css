@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+
+    height: 100vh;
+    background: url(/img/img2.jpg) center center/cover;
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position: center;
+}
+.logo{
+    max-width: 1080px;
+    height: auto;
+    position: fixed;
+    margin-top: 5%;
+    align-items: center;
+}
+.logo img{
+    max-width: 1080px;
+    width: 80%;
+    max-width: 500px;
+    min-height: auto;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.card{
+    width: 400px;
+    height: auto;
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.label-float input{
+    margin: 7px;
+    background-color: rgb(71, 70, 70);
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 10px;
+}
+
+.label-float input:focus{
+    border-color: red;
+}
+
+.label-float input:focus:placeholder-shown{
+    color: red;
+}
+
+button {
+    width: 100px;
+    background-color: red;
+    border-color: transparent;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+}
+
+p{
+display: flex;
+justify-content: center;
+text-align: center;
+color: #fff;
+}
+a{
+   color: red; 
+   text-decoration: none;
+}
+.fa-eye-slash{
+    position: absolute;
+    top: 81px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.fa-eye-slash:active{
+    color: red;
+}
